@@ -19,5 +19,5 @@ while exit != True:
     print("I am not yet sentient enough to understand that command. Please come back after my day one patch is complete.")
   
   previous_command = command
-
-print('I hope you enjoyed Keying your car.')
+else:
+  print('Thank you, I hope you enjoyed keying your car')
