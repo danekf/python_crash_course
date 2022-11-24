@@ -8,5 +8,5 @@ birth_year = input('Enter birth year: ')
 age = today.year - int(birth_year)
 
 #print converted age as string
-print('You are ' + str(age) + ' years old.')
+print(f'You are {age} years old.')
 
