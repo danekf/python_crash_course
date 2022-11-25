@@ -5,14 +5,18 @@ class Animal:
 
 #inherit stuff from animal
 class Dog(Animal):
-  #pass to get passed the empty class.
-  pass
+  def bark(self):
+    print('bark')
 
 
 class Cat(Animal):
-  pass
+  def meow(self):
+    print('meow')
 
 
 
 rudy = Dog()
 rudy.walk()
+
+kerrigan = Cat()
+kerrigan.meow()
