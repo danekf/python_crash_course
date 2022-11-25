@@ -1,3 +1,4 @@
-import ecommerce.shipping
+#import the shipping moddule from the ecommerce module
+from ecommerce import shipping
 
-ecommerce.shipping.calc_shipping()
+shipping.calc_shipping()
