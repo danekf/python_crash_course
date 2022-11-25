@@ -15,3 +15,16 @@ class Point:
 point1 = Point(10,20)
 
 print(point1.x, point1.y)
+
+
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+  def introduction(self):
+    print(f'Hello, I am {self.name}.')
+
+
+danek = Person('Danek')
+
+danek.introduction()
