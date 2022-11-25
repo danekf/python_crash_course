@@ -102,3 +102,24 @@ print(numbers)
 #clear (remove all from list)
 numbers.clear()
 print(numbers)
+
+
+
+######## dictionaries/objects ############
+champion = {
+  "name": "ashe",
+  "passive":"Frost Shot",
+  "Q":"Rangers Focus",
+  "W":"Volley",
+  "E":"Hawkshot",
+  "R":"Enchanted Crystal Arrow"
+}
+#methods to show values
+
+print(champion["name"])
+
+print(champion.get("Q"))
+
+#update
+champion["name"] = "Ashe"
+print(champion)
