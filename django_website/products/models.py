@@ -1,3 +1,13 @@
 from django.db import models
 
-# Create your models here.
+
+#create a new class that inherits the Model class from the models in django
+class Product(models.Model):
+  #create attributes using the Model attributes that django understands
+  name = models.CharField(max_length=255)
+  price = models.FloatField()
+  stock = models.IntegerField
+  image_url = models.CharField(max_length=2083)
+
+  
+#

@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #addd products app to add to migration 
+    'products.apps.ProductsConfig'
 ]
 
 MIDDLEWARE = [
