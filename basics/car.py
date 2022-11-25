@@ -15,6 +15,13 @@ while exit != True:
   elif command == 'quit':
     print('Exiting...')
     exit = True
+  elif command == 'help':
+    print('''
+    Available commands:
+    start
+    stop
+    help
+    ''')
   else:
     print("I am not yet sentient enough to understand that command. Please come back after my day one patch is complete.")
   
