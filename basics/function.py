@@ -17,3 +17,11 @@ f_name = input('What is your first name? ')
 l_name = input('What is your last name? ')
 
 greet_user_key(last = l_name, first = f_name)
+
+
+#returns in python are the same as most other languages
+
+def square(num):
+  return num * num
+
+print(square(2))
